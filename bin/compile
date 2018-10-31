@@ -24,7 +24,8 @@ then
    do
      lang="${array[i]}"
      echo $lang 'training data'
-     wget https://github.com/tesseract-ocr/tessdata/raw/master/$lang.traineddata | mv $INSTALL_DIR_TRAINING_DATA 
+     wget https://github.com/tesseract-ocr/tessdata/raw/master/$lang.traineddata 
+     mv $lang.traineddata $INSTALL_DIR_TRAINING_DATA 
    done
 fi
 
