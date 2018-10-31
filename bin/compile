@@ -23,6 +23,7 @@ then
      lang="${array[i]}"
      echo $lang 'training data'
      wget https://github.com/tesseract-ocr/tessdata/raw/master/$lang.traineddata 
+     echo 'extracting to ' $TESSDATA_PREFIX
      mv $lang.traineddata $TESSDATA_PREFIX
    done
 fi
