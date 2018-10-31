@@ -9,7 +9,7 @@ INSTALL_DIR=$BUILD_DIR/vendor/tesseract-ocr/
 INSTALL_DIR_TRAINING_DATA=$BUILD_DIR/vendor/
 TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr
 ENVSCRIPT=$BUILD_DIR/.profile.d/tesseract-ocr.sh
-TESSDATA_PREFIX=$BUILD_DIR/vendor/tesseract-ocr
+TESSDATA_PREFIX=$BUILD_DIR/vendor/share/tessdata
 TESSERACT_OCR_LANGUAGES=eng,ben
 
 echo "Unpacking Tesseract-OCR binaries"
