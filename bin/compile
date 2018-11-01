@@ -6,7 +6,7 @@ TESSDATA_TGZ=tessdata.tar.gz
 TESSERACT_OCR_TGZ=tesseract-ocr-$TESSERACT_OCR_VERSION.tar.gz
 
 INSTALL_DIR=$BUILD_DIR/vendor/tesseract-ocr/
-TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr/tessdata
+TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr
 ENVSCRIPT=$BUILD_DIR/.profile.d/tesseract-ocr.sh
 TESSDATA_PREFIX=${HOME}/vendor/tesseract-ocr/share/tessdata
 TESSERACT_OCR_LANGUAGES=eng
